@@ -20,16 +20,16 @@ import android.graphics.Canvas;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.view.Surface;
-import com.google.android.exoplayer.CodecCounters;
-import com.google.android.exoplayer.ExoPlaybackException;
-import com.google.android.exoplayer.ExoPlayer;
-import com.google.android.exoplayer.MediaFormat;
-import com.google.android.exoplayer.MediaFormatHolder;
-import com.google.android.exoplayer.SampleSource;
-import com.google.android.exoplayer.SampleSourceTrackRenderer;
-import com.google.android.exoplayer.TrackRenderer;
-import com.google.android.exoplayer.util.MimeTypes;
-import com.google.android.exoplayer.util.extensions.Buffer;
+import com.omny.android.exoplayer.CodecCounters;
+import com.omny.android.exoplayer.ExoPlaybackException;
+import com.omny.android.exoplayer.ExoPlayer;
+import com.omny.android.exoplayer.MediaFormat;
+import com.omny.android.exoplayer.MediaFormatHolder;
+import com.omny.android.exoplayer.SampleSource;
+import com.omny.android.exoplayer.SampleSourceTrackRenderer;
+import com.omny.android.exoplayer.TrackRenderer;
+import com.omny.android.exoplayer.util.MimeTypes;
+import com.omny.android.exoplayer.util.extensions.Buffer;
 
 /**
  * Decodes and renders video using the native VP9 decoder.

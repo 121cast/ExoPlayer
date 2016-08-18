@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer.playbacktests.util;
 
-import com.google.android.exoplayer.CodecCounters;
+import com.omny.android.exoplayer.CodecCounters;
 import junit.framework.TestCase;
 
 /**

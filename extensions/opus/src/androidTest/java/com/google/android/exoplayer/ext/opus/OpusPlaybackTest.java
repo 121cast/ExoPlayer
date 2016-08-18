@@ -19,13 +19,13 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Looper;
 import android.test.InstrumentationTestCase;
-import com.google.android.exoplayer.ExoPlaybackException;
-import com.google.android.exoplayer.ExoPlayer;
-import com.google.android.exoplayer.extractor.ExtractorSampleSource;
-import com.google.android.exoplayer.extractor.webm.WebmExtractor;
-import com.google.android.exoplayer.upstream.DefaultAllocator;
-import com.google.android.exoplayer.upstream.DefaultUriDataSource;
-import com.google.android.exoplayer.util.Util;
+import com.omny.android.exoplayer.ExoPlaybackException;
+import com.omny.android.exoplayer.ExoPlayer;
+import com.omny.android.exoplayer.extractor.ExtractorSampleSource;
+import com.omny.android.exoplayer.extractor.webm.WebmExtractor;
+import com.omny.android.exoplayer.upstream.DefaultAllocator;
+import com.omny.android.exoplayer.upstream.DefaultUriDataSource;
+import com.omny.android.exoplayer.util.Util;
 
 /**
  * Playback tests using {@link LibopusAudioTrackRenderer}.

@@ -20,20 +20,20 @@ import android.media.AudioManager;
 import android.media.MediaCodec;
 import android.net.Uri;
 import android.os.Handler;
-import com.google.android.exoplayer.MediaCodecAudioTrackRenderer;
-import com.google.android.exoplayer.MediaCodecSelector;
-import com.google.android.exoplayer.MediaCodecVideoTrackRenderer;
-import com.google.android.exoplayer.TrackRenderer;
-import com.google.android.exoplayer.audio.AudioCapabilities;
+import com.omny.android.exoplayer.MediaCodecAudioTrackRenderer;
+import com.omny.android.exoplayer.MediaCodecSelector;
+import com.omny.android.exoplayer.MediaCodecVideoTrackRenderer;
+import com.omny.android.exoplayer.TrackRenderer;
+import com.omny.android.exoplayer.audio.AudioCapabilities;
 import com.google.android.exoplayer.demo.player.DemoPlayer.RendererBuilder;
-import com.google.android.exoplayer.extractor.Extractor;
-import com.google.android.exoplayer.extractor.ExtractorSampleSource;
-import com.google.android.exoplayer.text.TextTrackRenderer;
-import com.google.android.exoplayer.upstream.Allocator;
-import com.google.android.exoplayer.upstream.DataSource;
-import com.google.android.exoplayer.upstream.DefaultAllocator;
-import com.google.android.exoplayer.upstream.DefaultBandwidthMeter;
-import com.google.android.exoplayer.upstream.DefaultUriDataSource;
+import com.omny.android.exoplayer.extractor.Extractor;
+import com.omny.android.exoplayer.extractor.ExtractorSampleSource;
+import com.omny.android.exoplayer.text.TextTrackRenderer;
+import com.omny.android.exoplayer.upstream.Allocator;
+import com.omny.android.exoplayer.upstream.DataSource;
+import com.omny.android.exoplayer.upstream.DefaultAllocator;
+import com.omny.android.exoplayer.upstream.DefaultBandwidthMeter;
+import com.omny.android.exoplayer.upstream.DefaultUriDataSource;
 
 /**
  * A {@link RendererBuilder} for streams that can be read using an {@link Extractor}.

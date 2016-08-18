@@ -16,7 +16,7 @@
 package com.google.android.exoplayer.playbacktests.util;
 
 import android.util.Log;
-import com.google.android.exoplayer.ExoPlayer;
+import com.omny.android.exoplayer.ExoPlayer;
 
 /**
  * Base class for actions to perform during playback tests.

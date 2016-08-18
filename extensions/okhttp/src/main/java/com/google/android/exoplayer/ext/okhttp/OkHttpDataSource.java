@@ -15,12 +15,12 @@
  */
 package com.google.android.exoplayer.ext.okhttp;
 
-import com.google.android.exoplayer.C;
-import com.google.android.exoplayer.upstream.DataSpec;
-import com.google.android.exoplayer.upstream.HttpDataSource;
-import com.google.android.exoplayer.upstream.TransferListener;
-import com.google.android.exoplayer.util.Assertions;
-import com.google.android.exoplayer.util.Predicate;
+import com.omny.android.exoplayer.C;
+import com.omny.android.exoplayer.upstream.DataSpec;
+import com.omny.android.exoplayer.upstream.HttpDataSource;
+import com.omny.android.exoplayer.upstream.TransferListener;
+import com.omny.android.exoplayer.util.Assertions;
+import com.omny.android.exoplayer.util.Predicate;
 import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -67,7 +67,7 @@ public class OkHttpDataSource implements HttpDataSource {
    * @param userAgent The User-Agent string that should be used.
    * @param contentTypePredicate An optional {@link Predicate}. If a content type is rejected by the
    *     predicate then a
-   *     {@link com.google.android.exoplayer.upstream.HttpDataSource.InvalidContentTypeException} is
+   *     {@link HttpDataSource.InvalidContentTypeException} is
    *     thrown from {@link #open(DataSpec)}.
    */
   public OkHttpDataSource(OkHttpClient client, String userAgent,
@@ -80,7 +80,7 @@ public class OkHttpDataSource implements HttpDataSource {
    * @param userAgent The User-Agent string that should be used.
    * @param contentTypePredicate An optional {@link Predicate}. If a content type is rejected by the
    *     predicate then a
-   *     {@link com.google.android.exoplayer.upstream.HttpDataSource.InvalidContentTypeException} is
+   *     {@link HttpDataSource.InvalidContentTypeException} is
    *     thrown from {@link #open(DataSpec)}.
    * @param listener An optional listener.
    */
@@ -94,7 +94,7 @@ public class OkHttpDataSource implements HttpDataSource {
    * @param userAgent The User-Agent string that should be used.
    * @param contentTypePredicate An optional {@link Predicate}. If a content type is rejected by the
    *     predicate then a
-   *     {@link com.google.android.exoplayer.upstream.HttpDataSource.InvalidContentTypeException} is
+   *     {@link HttpDataSource.InvalidContentTypeException} is
    *     thrown from {@link #open(DataSpec)}.
    * @param listener An optional listener.
    * @param cacheControl An optional {@link CacheControl} which sets all requests' Cache-Control

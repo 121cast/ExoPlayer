@@ -15,17 +15,17 @@
  */
 package com.google.android.exoplayer.ext.flac;
 
-import com.google.android.exoplayer.C;
-import com.google.android.exoplayer.MediaFormat;
-import com.google.android.exoplayer.extractor.Extractor;
-import com.google.android.exoplayer.extractor.ExtractorInput;
-import com.google.android.exoplayer.extractor.ExtractorOutput;
-import com.google.android.exoplayer.extractor.PositionHolder;
-import com.google.android.exoplayer.extractor.SeekMap;
-import com.google.android.exoplayer.extractor.TrackOutput;
-import com.google.android.exoplayer.util.FlacStreamInfo;
-import com.google.android.exoplayer.util.MimeTypes;
-import com.google.android.exoplayer.util.ParsableByteArray;
+import com.omny.android.exoplayer.C;
+import com.omny.android.exoplayer.MediaFormat;
+import com.omny.android.exoplayer.extractor.Extractor;
+import com.omny.android.exoplayer.extractor.ExtractorInput;
+import com.omny.android.exoplayer.extractor.ExtractorOutput;
+import com.omny.android.exoplayer.extractor.PositionHolder;
+import com.omny.android.exoplayer.extractor.SeekMap;
+import com.omny.android.exoplayer.extractor.TrackOutput;
+import com.omny.android.exoplayer.util.FlacStreamInfo;
+import com.omny.android.exoplayer.util.MimeTypes;
+import com.omny.android.exoplayer.util.ParsableByteArray;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Arrays;

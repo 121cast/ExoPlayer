@@ -16,7 +16,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.google.android.exoplayer.test">
+    package="com.omny.android.exoplayer.test">
 
   <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="23"/>
 
@@ -27,7 +27,7 @@
   </application>
 
   <instrumentation
-      android:targetPackage="com.google.android.exoplayer.test"
+      android:targetPackage="com.omny.android.exoplayer.test"
       android:name="android.test.InstrumentationTestRunner"
       tools:replace="android:targetPackage"/>
 

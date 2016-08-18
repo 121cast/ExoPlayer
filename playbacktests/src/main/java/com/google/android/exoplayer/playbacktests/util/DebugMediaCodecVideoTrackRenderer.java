@@ -18,12 +18,12 @@ package com.google.android.exoplayer.playbacktests.util;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Handler;
-import com.google.android.exoplayer.ExoPlaybackException;
-import com.google.android.exoplayer.MediaCodecSelector;
-import com.google.android.exoplayer.MediaCodecVideoTrackRenderer;
-import com.google.android.exoplayer.SampleSource;
-import com.google.android.exoplayer.drm.DrmSessionManager;
-import com.google.android.exoplayer.drm.FrameworkMediaCrypto;
+import com.omny.android.exoplayer.ExoPlaybackException;
+import com.omny.android.exoplayer.MediaCodecSelector;
+import com.omny.android.exoplayer.MediaCodecVideoTrackRenderer;
+import com.omny.android.exoplayer.SampleSource;
+import com.omny.android.exoplayer.drm.DrmSessionManager;
+import com.omny.android.exoplayer.drm.FrameworkMediaCrypto;
 import java.nio.ByteBuffer;
 
 /**

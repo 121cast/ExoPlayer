@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer.ext.flac;
 
-import com.google.android.exoplayer.util.extensions.OutputBuffer;
+import com.omny.android.exoplayer.util.extensions.OutputBuffer;
 import java.nio.ByteBuffer;
 
 /**

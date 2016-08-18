@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer.ext.vp9;
 
-import com.google.android.exoplayer.util.extensions.InputBuffer;
+import com.omny.android.exoplayer.util.extensions.InputBuffer;
 
 /**
  * Input buffer to a {@link VpxDecoder}.

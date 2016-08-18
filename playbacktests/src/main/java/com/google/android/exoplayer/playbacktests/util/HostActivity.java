@@ -33,8 +33,8 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.Window;
 import com.google.android.exoplayer.playbacktests.R;
-import com.google.android.exoplayer.util.Assertions;
-import com.google.android.exoplayer.util.Util;
+import com.omny.android.exoplayer.util.Assertions;
+import com.omny.android.exoplayer.util.Util;
 
 /**
  * A host activity for performing playback tests.

@@ -15,9 +15,9 @@
  */
 package com.google.android.exoplayer.ext.vp9;
 
-import com.google.android.exoplayer.SampleHolder;
-import com.google.android.exoplayer.util.extensions.Buffer;
-import com.google.android.exoplayer.util.extensions.SimpleDecoder;
+import com.omny.android.exoplayer.SampleHolder;
+import com.omny.android.exoplayer.util.extensions.Buffer;
+import com.omny.android.exoplayer.util.extensions.SimpleDecoder;
 import java.nio.ByteBuffer;
 
 /**
