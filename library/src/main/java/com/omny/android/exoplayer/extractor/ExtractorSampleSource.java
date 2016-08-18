@@ -47,16 +47,16 @@ import java.util.List;
  * format will be detected automatically from the following supported formats:
  *
  * <ul>
- * <li>MP4, including M4A ({@link Mp4Extractor})</li>
- * <li>fMP4 ({@link FragmentedMp4Extractor})</li>
- * <li>Matroska and WebM ({@link WebmExtractor})</li>
- * <li>Ogg Vorbis/FLAC ({@link OggExtractor}</li>
- * <li>MP3 ({@link Mp3Extractor})</li>
- * <li>AAC ({@link AdtsExtractor})</li>
- * <li>MPEG TS ({@link TsExtractor})</li>
- * <li>MPEG PS ({@link PsExtractor})</li>
- * <li>FLV ({@link FlvExtractor})</li>
- * <li>WAV ({@link WavExtractor})</li>
+ * <li>MP4, including M4A ({@link com.omny.android.exoplayer.extractor.mp4.Mp4Extractor})</li>
+ * <li>fMP4 ({@link com.omny.android.exoplayer.extractor.mp4.FragmentedMp4Extractor})</li>
+ * <li>Matroska and WebM ({@link com.omny.android.exoplayer.extractor.webm.WebmExtractor})</li>
+ * <li>Ogg Vorbis/FLAC ({@link com.omny.android.exoplayer.extractor.ogg.OggExtractor}</li>
+ * <li>MP3 ({@link com.omny.android.exoplayer.extractor.mp3.Mp3Extractor})</li>
+ * <li>AAC ({@link com.omny.android.exoplayer.extractor.ts.AdtsExtractor})</li>
+ * <li>MPEG TS ({@link com.omny.android.exoplayer.extractor.ts.TsExtractor})</li>
+ * <li>MPEG PS ({@link com.omny.android.exoplayer.extractor.ts.PsExtractor})</li>
+ * <li>FLV ({@link com.omny.android.exoplayer.extractor.flv.FlvExtractor})</li>
+ * <li>WAV ({@link com.omny.android.exoplayer.extractor.wav.WavExtractor})</li>
  * <li>FLAC (only available if the FLAC extension is built and included)</li>
  * </ul>
  *

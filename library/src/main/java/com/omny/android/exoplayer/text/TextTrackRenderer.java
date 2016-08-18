@@ -29,10 +29,6 @@ import com.omny.android.exoplayer.SampleSource;
 import com.omny.android.exoplayer.SampleSourceTrackRenderer;
 import com.omny.android.exoplayer.TrackRenderer;
 import com.omny.android.exoplayer.util.Assertions;
-import com.omny.android.exoplayer.text.subrip.SubripParser;
-import com.omny.android.exoplayer.text.ttml.TtmlParser;
-import com.omny.android.exoplayer.text.tx3g.Tx3gParser;
-import com.omny.android.exoplayer.text.webvtt.WebvttParser;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -48,13 +44,13 @@ import java.util.List;
  * detected automatically for the following supported formats:
  *
  * <ul>
- * <li>WebVTT ({@link WebvttParser})</li>
+ * <li>WebVTT ({@link com.omny.android.exoplayer.text.webvtt.WebvttParser})</li>
  * <li>TTML
- * ({@link TtmlParser})</li>
+ * ({@link com.omny.android.exoplayer.text.ttml.TtmlParser})</li>
  * <li>SubRip
- * ({@link SubripParser})</li>
+ * ({@link com.omny.android.exoplayer.text.subrip.SubripParser})</li>
  * <li>TX3G
- * ({@link Tx3gParser})</li>
+ * ({@link com.omny.android.exoplayer.text.tx3g.Tx3gParser})</li>
  * </ul>
  *
  * <p>To override the default parsers, pass one or more {@link SubtitleParser} instances to the
@@ -78,35 +74,35 @@ public final class TextTrackRenderer extends SampleSourceTrackRenderer implement
     // can detect the use of reflection (see http://proguard.sourceforge.net/FAQ.html#forname).
     try {
       DEFAULT_PARSER_CLASSES.add(
-          Class.forName("WebvttParser")
+          Class.forName("com.omny.android.exoplayer.text.webvtt.WebvttParser")
               .asSubclass(SubtitleParser.class));
     } catch (ClassNotFoundException e) {
       // Parser not found.
     }
     try {
       DEFAULT_PARSER_CLASSES.add(
-          Class.forName("TtmlParser")
+          Class.forName("com.omny.android.exoplayer.text.ttml.TtmlParser")
               .asSubclass(SubtitleParser.class));
     } catch (ClassNotFoundException e) {
       // Parser not found.
     }
     try {
       DEFAULT_PARSER_CLASSES.add(
-          Class.forName("Mp4WebvttParser")
+          Class.forName("com.omny.android.exoplayer.text.webvtt.Mp4WebvttParser")
               .asSubclass(SubtitleParser.class));
     } catch (ClassNotFoundException e) {
       // Parser not found.
     }
     try {
       DEFAULT_PARSER_CLASSES.add(
-          Class.forName("SubripParser")
+          Class.forName("com.omny.android.exoplayer.text.subrip.SubripParser")
               .asSubclass(SubtitleParser.class));
     } catch (ClassNotFoundException e) {
       // Parser not found.
     }
     try {
       DEFAULT_PARSER_CLASSES.add(
-          Class.forName("Tx3gParser")
+          Class.forName("com.omny.android.exoplayer.text.tx3g.Tx3gParser")
               .asSubclass(SubtitleParser.class));
     } catch (ClassNotFoundException e) {
       // Parser not found.
