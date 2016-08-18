@@ -130,7 +130,7 @@ public abstract class MediaCodecTrackRenderer extends SampleSourceTrackRenderer 
 
     private static String buildCustomDiagnosticInfo(int errorCode) {
       String sign = errorCode < 0 ? "neg_" : "";
-      return "com.google.android.exoplayer.MediaCodecTrackRenderer_" + sign + Math.abs(errorCode);
+      return "com.omny.android.exoplayer.MediaCodecTrackRenderer_" + sign + Math.abs(errorCode);
     }
 
   }

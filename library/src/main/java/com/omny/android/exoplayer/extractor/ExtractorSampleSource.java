@@ -35,17 +35,6 @@ import com.omny.android.exoplayer.upstream.Loader;
 import com.omny.android.exoplayer.upstream.Loader.Loadable;
 import com.omny.android.exoplayer.util.Assertions;
 import com.omny.android.exoplayer.util.Util;
-import com.omny.android.exoplayer.extractor.flv.FlvExtractor;
-import com.omny.android.exoplayer.extractor.mp3.Mp3Extractor;
-import com.omny.android.exoplayer.extractor.mp4.FragmentedMp4Extractor;
-import com.omny.android.exoplayer.extractor.mp4.Mp4Extractor;
-import com.omny.android.exoplayer.extractor.ogg.OggExtractor;
-import com.omny.android.exoplayer.extractor.ts.AdtsExtractor;
-import com.omny.android.exoplayer.extractor.ts.PsExtractor;
-import com.omny.android.exoplayer.extractor.ts.TsExtractor;
-import com.omny.android.exoplayer.extractor.wav.WavExtractor;
-import com.omny.android.exoplayer.extractor.webm.WebmExtractor;
-
 import java.io.EOFException;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -132,77 +121,77 @@ public final class ExtractorSampleSource implements SampleSource, SampleSourceRe
     // can detect the use of reflection (see http://proguard.sourceforge.net/FAQ.html#forname).
     try {
       DEFAULT_EXTRACTOR_CLASSES.add(
-          Class.forName("WebmExtractor")
+          Class.forName("com.omny.android.exoplayer.extractor.webm.WebmExtractor")
               .asSubclass(Extractor.class));
     } catch (ClassNotFoundException e) {
       // Extractor not found.
     }
     try {
       DEFAULT_EXTRACTOR_CLASSES.add(
-          Class.forName("FragmentedMp4Extractor")
+          Class.forName("com.omny.android.exoplayer.extractor.mp4.FragmentedMp4Extractor")
               .asSubclass(Extractor.class));
     } catch (ClassNotFoundException e) {
       // Extractor not found.
     }
     try {
       DEFAULT_EXTRACTOR_CLASSES.add(
-          Class.forName("Mp4Extractor")
+          Class.forName("com.omny.android.exoplayer.extractor.mp4.Mp4Extractor")
               .asSubclass(Extractor.class));
     } catch (ClassNotFoundException e) {
       // Extractor not found.
     }
     try {
       DEFAULT_EXTRACTOR_CLASSES.add(
-          Class.forName("Mp3Extractor")
+          Class.forName("com.omny.android.exoplayer.extractor.mp3.Mp3Extractor")
               .asSubclass(Extractor.class));
     } catch (ClassNotFoundException e) {
       // Extractor not found.
     }
     try {
       DEFAULT_EXTRACTOR_CLASSES.add(
-          Class.forName("AdtsExtractor")
+          Class.forName("com.omny.android.exoplayer.extractor.ts.AdtsExtractor")
               .asSubclass(Extractor.class));
     } catch (ClassNotFoundException e) {
       // Extractor not found.
     }
     try {
       DEFAULT_EXTRACTOR_CLASSES.add(
-          Class.forName("TsExtractor")
+          Class.forName("com.omny.android.exoplayer.extractor.ts.TsExtractor")
               .asSubclass(Extractor.class));
     } catch (ClassNotFoundException e) {
       // Extractor not found.
     }
     try {
       DEFAULT_EXTRACTOR_CLASSES.add(
-          Class.forName("FlvExtractor")
+          Class.forName("com.omny.android.exoplayer.extractor.flv.FlvExtractor")
               .asSubclass(Extractor.class));
     } catch (ClassNotFoundException e) {
       // Extractor not found.
     }
     try {
       DEFAULT_EXTRACTOR_CLASSES.add(
-          Class.forName("OggExtractor")
+          Class.forName("com.omny.android.exoplayer.extractor.ogg.OggExtractor")
               .asSubclass(Extractor.class));
     } catch (ClassNotFoundException e) {
       // Extractor not found.
     }
     try {
       DEFAULT_EXTRACTOR_CLASSES.add(
-          Class.forName("PsExtractor")
+          Class.forName("com.omny.android.exoplayer.extractor.ts.PsExtractor")
               .asSubclass(Extractor.class));
     } catch (ClassNotFoundException e) {
       // Extractor not found.
     }
     try {
       DEFAULT_EXTRACTOR_CLASSES.add(
-          Class.forName("WavExtractor")
+          Class.forName("com.omny.android.exoplayer.extractor.wav.WavExtractor")
               .asSubclass(Extractor.class));
     } catch (ClassNotFoundException e) {
       // Extractor not found.
     }
     try {
       DEFAULT_EXTRACTOR_CLASSES.add(
-          Class.forName("com.google.android.exoplayer.ext.flac.FlacExtractor")
+          Class.forName("com.omny.android.exoplayer.ext.flac.FlacExtractor")
               .asSubclass(Extractor.class));
     } catch (ClassNotFoundException e) {
       // Extractor not found.
